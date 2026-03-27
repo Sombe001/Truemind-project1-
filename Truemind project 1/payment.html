@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Enables responsiveness -->
+    <title>Chuks Kitchen-Payment</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+
+<body>
+<header>
+
+    <!-- NAVIGATION BAR  -->
+    <nav class="navbar">
+
+        <!-- Brand Logo -->
+        <div class="logo">Chuks Kitchen</div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>Explore</li>
+            <li class="active">My Orders</li>
+            <li>Account</li>
+        </ul>
+
+        <!-- Login Button -->
+        <button class="login-btn">Login</button>
+
+    </nav>
+</header>
+
+
+<!--  PAYMENT SECTION  -->
+<div class="payment-wrapper">
+    <div class="payment-card">
+
+        <h2>Payment</h2>
+
+        <div class="divider"></div>
+
+    
+        <div class="pay-with">
+            <p>Pay With:</p>
+        </div>
+
+        <div class="payment-method">
+
+            <label class="radio">
+                <input type="radio" name="pay" checked>
+                <span>Card</span>
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="pay">
+                <span>Bank</span>
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="pay">
+                <span>Transfer</span>
+            </label>
+
+        </div>
+
+
+        <!-- CARD DETAILS FORM -->
+
+        <div class="form-group">
+            <label>Card Number</label>
+            <input type="text" placeholder="1234 5678 9101 1121">
+        </div>
+
+        <div class="row">
+
+            
+            <div class="form-group half">
+                <label>Expiration Date</label>
+                <input type="text" placeholder="MM/YY">
+            </div>
+
+         
+            <div class="form-group half">
+                <label>CVV</label>
+                <input type="text" placeholder="123">
+            </div>
+
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="save">
+            <label for="save">Save card details</label>
+        </div>
+
+        <button class="pay-btn">Pay ₦9,900</button>
+
+        <p class="privacy">
+            Your personal data will be used to process your order,
+            support your experience throughout this website,
+            and for other purposes described in our privacy policy.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER SECTION -->
+<footer>
+
+    <div class="footer-content">
+        <div class="footer-columns">
+
+            <!-- Brand Description -->
+            <div class="footer-col">
+                <h3>Chuks Kitchen</h3>
+                <p>
+                    Bringing the authentic flavors of Nigerian
+                    home cooking to your table, with passion and care.
+                </p>
+            </div>
+
+            <!-- Quick Navigation Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <p>Home</p>
+                <p>Explore</p>
+                <p>My Order</p>
+                <p>Account</p>
+                <p>Contact</p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>+234 801 234 5678</p>
+                <p>hello@chukskitchen.com</p>
+                <p>123 Taste Blvd, Lagos, Nigeria</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-col">
+                <h4>Social</h4>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>LinkedIn</p>
+                <p>Instagram</p>
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer Row -->
+        <div class="footer-bottom">
+            <p>© 2020 Lift Media. All rights reserved.</p>
+
+            <!-- Back to Top Arrow -->
+            <div class="footer-arrow">
+                <img src="./Images/Up arrow.png" alt="Back to top">
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
